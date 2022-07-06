@@ -52,9 +52,6 @@ for (let key in p.laptop) {
 for (let keys in p) {
   console.log(keys, p[keys]);
 }
-
-
-
 //delete key
 delete p.laptop;
 console.log(p);
